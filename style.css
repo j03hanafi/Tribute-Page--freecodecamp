@@ -4,6 +4,8 @@
   grid-template-rows: auto 3fr auto auto;
   font-family: "Courier New", Courier, monospace;
   align-items: center;
+  background: #212529;
+  color: #f6f9fc;
 }
 
 #title {
@@ -23,10 +25,11 @@
 
 #img-div {
   justify-self: stretch;
-  background: rgb(224, 224, 224);
+  background: #adb5bd;
   grid-column: 2 / 5;
   grid-row: 2 / 3;
   padding: 20px;
+  color: #32325d;
 }
 
 #image {
@@ -63,7 +66,7 @@ td {
 
 #tribute-info table .event:hover {
   transform: translateY(-5px);
-  box-shadow: 0 5px 10px silver;
+  box-shadow: 0 5px 10px #525f7f;
   transition: transform 300ms ease-out, box-shadow 300ms ease-out;
 }
 
@@ -82,14 +85,14 @@ td {
   grid-column: 1 / 6;
   text-align: center;
   font-size: 1.5em;
-  color: black;
+  color: #6c757d;
 }
 
 #tribute-link {
-  color: black;
+  color: #e9ecef;
   text-decoration: none;
 }
 
 #tribute-link:hover {
-  text-shadow: 0 0 10px silver;
+  text-shadow: 0 0 10px #f6f9fc;
 }
