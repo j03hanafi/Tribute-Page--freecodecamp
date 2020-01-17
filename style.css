@@ -94,5 +94,5 @@ td {
 }
 
 #tribute-link:hover {
-  text-shadow: 0 0 10px #f6f9fc;
+  text-decoration: underline;
 }
